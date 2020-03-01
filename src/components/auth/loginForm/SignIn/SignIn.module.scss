@@ -1,0 +1,36 @@
+@import '../../../../resources/styles/Variables.scss';
+
+.signUpContent {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    row-gap: 20px;
+    text-align: center;
+
+    p {
+        color: $color-primary;
+        font-size: 18px;
+    }
+}
+
+.formInner { 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 25px;
+
+    a {
+        float: right;
+        color: #5cad5c;
+
+        &:hover{
+            color : #5d9e5d
+        }
+    }
+}
+    
+.errorMessage {
+    margin-top: 1px;
+    background: white;
+    padding: 8px;
+    position: absolute;
+    z-index: 2;
+}

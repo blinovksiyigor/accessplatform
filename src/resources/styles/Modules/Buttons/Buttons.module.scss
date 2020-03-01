@@ -1,0 +1,17 @@
+@import '../../../styles/Variables.scss';
+
+.loginFormButton {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #5d9e5d;
+    color: $color-primary;
+    font-size: 26px;
+    text-transform: capitalize;
+
+    &:hover {
+       border: none;
+       background-color:  #5cad5c;
+       color: $color-primary;
+    }
+}

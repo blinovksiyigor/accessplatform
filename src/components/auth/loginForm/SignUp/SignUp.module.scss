@@ -1,0 +1,33 @@
+@import '../../../../resources/styles/Variables.scss';
+
+.signUpContent {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    row-gap: 20px;
+    text-align: center;
+
+    p {
+        color: $color-primary;
+        font-size: 18px;
+    }
+}
+
+.namesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.formInner { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 40px;
+}
+    
+.errorMessage {
+    margin-top: 1px;
+    background: white;
+    padding: 8px;
+    position: absolute;
+    z-index: 2;
+}
